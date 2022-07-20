@@ -21,6 +21,8 @@ void libera(Lista* li){
     free(li);
 }
 int main(){
+    //mesma ideia de arquivos em C -> FILE *ponteiro // Lista *ponteiro
     Lista *li; //file*
     li = cria();
+    libera(li);
 }

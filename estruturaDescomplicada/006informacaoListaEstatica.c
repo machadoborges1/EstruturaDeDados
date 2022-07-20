@@ -1,3 +1,5 @@
+#include"005.h"
+
 int tamanho(Lista* li){
     if(li == NULL)
         return -1;
@@ -8,7 +10,7 @@ int tamanho(Lista* li){
 int listaCheia(Lista* li){
     if(li == NULL)
         return -1;
-    return(li->qtd == MAX);
+    return(li->qtd == MAX); // MAX = 100 // 005.c
 }
 
 int listaVazia(Lista* li){

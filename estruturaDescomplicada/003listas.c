@@ -1,4 +1,3 @@
-int main(){
     /*
     Uma lista do tipo "lista" é uma 
     sequencia de elementos do mesmo tipo.
@@ -35,4 +34,6 @@ int main(){
         antecessores na "lista". (um elemento aponta para
         o que vem em seguida na lista).
     */
-}
+
+// sequencia de elementos do mesmo tipo
+// formada por varios nós/node (caso nó == 0, então ela está vazia);
